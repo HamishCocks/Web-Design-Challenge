@@ -1,0 +1,112 @@
+/* superstylin.css */
+.section {
+    display: flex;
+    flex-flow: column;
+    height:100vh
+}
+
+.summ {
+    margin-right: 50px;
+    margin-left: 250px;
+}
+
+.summ2 {
+    margin-left: 0px;
+    margin-right: 300px;
+}
+.row2 {
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    padding: 10px;
+    min-height: 100px; 
+}
+.row3 {
+    width:100%;
+    height:100%;
+    margin:0;
+}
+h1 {
+    font-size: 3.7vw
+}
+h2 {font-size: 2.5vw
+}
+
+h4 {
+    font-size: 2vw
+}
+
+.border1 {
+    border: cyan 3px solid;
+    padding: 0;
+}
+
+.alert {
+    font-size: 1.5vw
+}
+
+.flex > div
+{
+   flex: 1 0 50%;
+   text-align: center;
+   padding: 10px;
+   overflow: hidden;
+}
+
+.column {
+    flex: 100%;
+    float: left;
+    max-width: 50%;
+    padding: 0 50px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.image-test {
+    margin-top: 20px;
+    max-width: 100%;
+    padding-bottom: 60px;
+    height: auto;
+    width: auto;
+    display:block
+}
+
+@media screen and (max-width: 768px) {
+    .column {    
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: contain;
+    }
+    .row2 {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        object-fit: contain;
+
+    }
+    .image-test {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width:100%;
+        max-height:100%;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 5vw
+    }
+    
+    h4 {
+        font-size: 3vw
+    }
+    
+    .alert {
+        font-size: 2vw
+    }
+    
+ }
+
